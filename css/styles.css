@@ -1,0 +1,93 @@
+/* Палитра:
+основной цвет текста #757575
+вторичный цвет текста #212121
+дополнительныq цвет текста #FFFFFF, rgba(255, 255, 255, 0.6)
+цвет акцента #2196F3*/
+
+:root {
+  --main-text-color: #757575;
+  --secondary-text-color: #212121;
+  --additional-text-color: #ffffff;
+  --accent-color: #2196f3;
+  --button-background: #f5f4fa;
+}
+
+/* studio */
+
+body {
+  color: var(--secondary-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+/* header */
+
+.links-nav {
+  color: var(--secondary-text-color);
+}
+
+.links-nav:hover {
+  color: var(--accent-color);
+}
+
+.links-contact {
+  color: var(--main-text-color);
+}
+
+.links-contact:hover {
+  color: var(--accent-color);
+}
+
+.current {
+  color: var(--accent-color);
+}
+
+/* qualities */
+
+.qualities-title {
+  color: var(--secondary-text-color);
+}
+
+.qualities-text {
+  color: var(--main-text-color);
+}
+
+/* hero */
+
+.btn {
+  color: var(--additional-text-color);
+  background-color: var(--accent-color);
+}
+
+/* developers */
+
+h5 {
+  color: var(--secondary-text-color);
+}
+
+h2 {
+  color: var(--secondary-text-color);
+}
+
+p {
+  color: var(--main-text-color);
+}
+
+/* footer */
+
+.contact {
+  color: var(--main-text-color);
+}
+
+/* Portfolio */
+
+.filter-btn {
+  background-color: var(--button-background);
+}
+
+.filter-btn:hover {
+  color: var(--additional-text-color);
+  background-color: var(--accent-color);
+}

@@ -3,71 +3,77 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title lang="en">Web Studio</title>
+    <title lang="ru">Web Studio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <header>
-      <nav>
+      <nav class="links">
         <a href="./index.html">
           <img src="./images/logotype.svg" alt="логотип" />
         </a>
-        <a href="./index.html">Студия</a>
-        <a href="./portfolio.html">Портфолио</a>
-        <a href="">Контакты</a>
-        <a href="">
+        <a href="./index.html" class="links-nav">Студия</a>
+        <a href="./portfolio.html" class="links-nav current">Портфолио</a>
+        <a href="" class="links-nav">Контакты</a>
+        <a href="" class="links-contact">
           <img src="./images/hover.svg" alt="конверт" />
           info@devstudio.com
         </a>
-        <img src="./images/phone.svg" alt="телефон" />
-        +38 096 111 11 11
+        <a href="" class="links-contact">
+          <img src="./images/phone.svg" alt="телефон" />
+          +38 096 111 11 11
+        </a>
       </nav>
     </header>
+
     <main>
+      <h1>Портфолио</h1>
       <section>
-        <ul>
-          <li>Все</li>
-          <li>Веб-сайты</li>
-          <li>Приложения</li>
-          <li>Дизайн</li>
-          <li>Маркетинг</li>
+        <h2>Фильтры</h2>
+        <ul class="filters">
+          <li class="filter-btn">Все</li>
+          <li class="filter-btn">Веб-сайты</li>
+          <li class="filter-btn">Приложения</li>
+          <li class="filter-btn">Дизайн</li>
+          <li class="filter-btn">Маркетинг</li>
         </ul>
       </section>
       <section>
-        <h1>Портфолио</h1>
+        <h2>Галерея</h2>
         <ul>
           <li>
-            <img src="./images/technocrack.jpg" alt="" width="370px" />
+            <img src="./images/technocrack.jpg" alt="" width="370" />
             <h2>Технокряк</h2>
             <p>Веб-сайт</p>
           </li>
           <li>
-            <img src="./images/poster.jpg" alt="" width="370px" />
+            <img src="./images/poster.jpg" alt="" width="370" />
             <h2>Постер New Orlean vs Golden Star</h2>
             <p>Дизайн</p>
           </li>
           <li>
-            <img src="./images/seafood.jpg" alt="" width="370px" />
+            <img src="./images/seafood.jpg" alt="" width="370" />
             <h2>Ресторан Seafood</h2>
             <p>Приложение</p>
           </li>
           <li>
-            <img src="./images/prime.jpg" alt="" width="370px" />
+            <img src="./images/prime.jpg" alt="" width="370" />
             <h2>Проект Prime</h2>
             <p>Маркетинг</p>
           </li>
           <li>
-            <img src="./images/boxes.jpg" alt="" width="370px" />
+            <img src="./images/boxes.jpg" alt="" width="370" />
             <h2>Проект Boxes</h2>
             <p>Приложение</p>
           </li>
           <li>
-            <img src="./images/inspiration.jpg" alt="" width="370px" />
+            <img src="./images/inspiration.jpg" alt="" width="370" />
             <h2>Inspiration has no Borders</h2>
             <p>Веб-сайт</p>
           </li>
           <li>
-            <img src="./images/limited.jpg" alt="" width="370px" />
+            <img src="./images/limited.jpg" alt="" width="370" />
             <h2>Издание Limited Edition</h2>
             <p>Дизайн</p>
           </li>
@@ -92,8 +98,8 @@
         <img src="./images/logotype.svg" alt="логотип" />
         <address>
           г. Киев, пр-т Леси Украинки, 26<br />
-          info@example.com<br />
-          +38 099 111 11 11
+          <div class="contact">info@example.com</div>
+          <div class="contact">+38 099 111 11 11</div>
         </address>
         <h4>
           Присоединяйтесь
